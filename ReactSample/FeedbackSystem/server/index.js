@@ -125,23 +125,23 @@ const subjects = [
     { id: 'coi1', name: 'Constitution of India', type: 'theory', class: 'IIyr', semester: 'II', faculties: { A: 'Mrs Lakshmi', B: 'Mrs Lakshmi' } },
     { id: 'sdc1', name: 'Skill Development Course -Node JS', type: 'theory', class: 'IIyr', semester: 'II', faculties: { A: 'Mr D Kishore kumar', B: 'Mr D Kishore kumar' } },
 
-    // III Year - Semester II
-    { id: 'atcd1', name: 'Automata Theory and Compiler Design', type: 'theory', class: 'IIIyr', semester: 'II', faculties: { A: 'Mr N ravi shankar', B: 'Mr N ravi shankar' } },
-    { id: 'ada1', name: 'Algorithm Design and Analysis', type: 'theory', class: 'IIIyr', semester: 'II', faculties: { A: 'Mrs K Nandhini', B: 'Mrs K Nandhini' } },
-    { id: 'bda1', name: 'Big Data Analytics', type: 'theory', class: 'IIIyr', semester: 'II', faculties: { A: 'Mr P Srinivas', B: 'Mr P Srinivas' } },
-    { id: 'sl1', name: 'Scripting Languages', type: 'theory', class: 'IIIyr', semester: 'II', faculties: { A: 'Miss N Sujana', B: 'Mrs G SriRamya' } },
-    { id: 'oop1', name: 'Object Oriented Programming using C++', type: 'theory', class: 'IIIyr', semester: 'II', faculties: { A: 'Mrs V Indrani', B: 'Mrs V Indrani' } },
-    { id: 'bdal1', name: 'Big Data Analytics Lab', type: 'lab', class: 'IIIyr', semester: 'II', faculties: { A: 'Mr P Srinivas', B: 'Mr P Srinivas' } },
-    { id: 'sll1', name: 'Scripting Languages Lab', type: 'lab', class: 'IIIyr', semester: 'II', faculties: { A: 'Miss N Sujana', B: 'Mrs G SriRamya' } },
-    { id: 'aecs1', name: 'Advanced English Communication Skills', type: 'lab', class: 'IIIyr', semester: 'II', faculties: { A: 'Mrs Anuradha', B: 'Mrs Anuradha' } },
-    { id: 'es1', name: 'Environmental Science', type: 'theory', class: 'IIIyr', semester: 'II', faculties: { A: 'Mrs P Kamala', B: 'Mrs P Kamala' } },
-    { id: 'imp1', name: 'Industrial Oriented Mini Project', type: 'lab', class: 'IIIyr', semester: 'II', faculties: { A: 'Mrs K Nandhini', B: 'Mrs K Nandhini' } },
+    // III Year - Semester III
+    { id: 'atcd1', name: 'Automata Theory and Compiler Design', type: 'theory', class: 'IIIyr', semester: 'III', faculties: { A: 'Mr N ravi shankar', B: 'Mr N ravi shankar' } },
+    { id: 'ada1', name: 'Algorithm Design and Analysis', type: 'theory', class: 'IIIyr', semester: 'III', faculties: { A: 'Mrs K Nandhini', B: 'Mrs K Nandhini' } },
+    { id: 'bda1', name: 'Big Data Analytics', type: 'theory', class: 'IIIyr', semester: 'III', faculties: { A: 'Mr P Srinivas', B: 'Mr P Srinivas' } },
+    { id: 'sl1', name: 'Scripting Languages', type: 'theory', class: 'IIIyr', semester: 'III', faculties: { A: 'Miss N Sujana', B: 'Mrs G SriRamya' } },
+    { id: 'oop1', name: 'Object Oriented Programming using C++', type: 'theory', class: 'IIIyr', semester: 'III', faculties: { A: 'Mrs V Indrani', B: 'Mrs V Indrani' } },
+    { id: 'bdal1', name: 'Big Data Analytics Lab', type: 'lab', class: 'IIIyr', semester: 'III', faculties: { A: 'Mr P Srinivas', B: 'Mr P Srinivas' } },
+    { id: 'sll1', name: 'Scripting Languages Lab', type: 'lab', class: 'IIIyr', semester: 'III', faculties: { A: 'Miss N Sujana', B: 'Mrs G SriRamya' } },
+    { id: 'aecs1', name: 'Advanced English Communication Skills', type: 'lab', class: 'IIIyr', semester: 'III', faculties: { A: 'Mrs Anuradha', B: 'Mrs Anuradha' } },
+    { id: 'es1', name: 'Environmental Science', type: 'theory', class: 'IIIyr', semester: 'III', faculties: { A: 'Mrs P Kamala', B: 'Mrs P Kamala' } },
+    { id: 'imp1', name: 'Industrial Oriented Mini Project', type: 'lab', class: 'IIIyr', semester: 'III', faculties: { A: 'Mrs K Nandhini', B: 'Mrs K Nandhini' } },
 
-    // IV Year - Semester II
-    { id: 'ob1', name: 'Organizational Behaviour', type: 'theory', class: 'IVyr', semester: 'II', faculties: { A: 'Mrs Padmaja', B: 'Mrs Padmaja' } },
-    { id: 'ws1', name: 'Web Security', type: 'theory', class: 'IVyr', semester: 'II', faculties: { A: 'Mr R Manoj Kumar', B: 'Mr R Manoj Kumar' } },
-    { id: 'cb1', name: 'Chatbots', type: 'theory', class: 'IVyr', semester: 'II', faculties: { A: 'Mr Vinay Sagar', B: 'Mr Vinay Sagar' } },
-    { id: 'ps2', name: 'Project Stage-II Including Seminar', type: 'lab', class: 'IVyr', semester: 'II', faculties: { A: 'Mr Vinay Sagar', B: 'Mr Vinay Sagar' } }
+    // IV Year - Semester IV
+    { id: 'ob1', name: 'Organizational Behaviour', type: 'theory', class: 'IVyr', semester: 'IV', faculties: { A: 'Mrs Padmaja', B: 'Mrs Padmaja' } },
+    { id: 'ws1', name: 'Web Security', type: 'theory', class: 'IVyr', semester: 'IV', faculties: { A: 'Mr R Manoj Kumar', B: 'Mr R Manoj Kumar' } },
+    { id: 'cb1', name: 'Chatbots', type: 'theory', class: 'IVyr', semester: 'IV', faculties: { A: 'Mr Vinay Sagar', B: 'Mr Vinay Sagar' } },
+    { id: 'ps2', name: 'Project Stage-II Including Seminar', type: 'lab', class: 'IVyr', semester: 'IV', faculties: { A: 'Mr Vinay Sagar', B: 'Mr Vinay Sagar' } }
 ];
 
 // --- ROUTES ---
@@ -151,10 +151,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/debug', (req, res) => {
+    const students = usersData.filter(u => u.role === 'student' && u.class === 'IVyr');
     res.json({
         message: 'Debug endpoint working',
         time: new Date().toISOString(),
         usersLoaded: usersData.length,
+        ivYearCount: students.length,
+        sampleStudent: students[0] || 'No IVyr students found',
         cwd: process.cwd(),
         isVercel: !!process.env.VERCEL
     });
@@ -517,6 +520,70 @@ app.get('/api/analytics/submissions', (req, res) => {
     }
 });
 
+// Alternative endpoint for Vercel (nested routes have issues)
+app.get('/api/submissions', (req, res) => {
+    const { class: year, section, semester } = req.query;
+    if (!year || !section || !semester) {
+        return res.status(400).json({ message: 'Class, Section and Semester are required' });
+    }
+
+    try {
+        const allUsers = getUsers();
+        const students = allUsers.filter(u =>
+            u.role === 'student' &&
+            u.class === year &&
+            u.section === section &&
+            u.semester === semester
+        );
+
+        const classSubjects = subjects.filter(s => s.class === year);
+        const totalSubjects = classSubjects.length;
+        const allFeedback = getFeedback();
+
+        const studentStatusList = students.map(student => {
+            const studentFeedback = allFeedback.filter(f =>
+                (f.rollnumber === student.rollnumber) ||
+                (f.studentId === student.rollnumber)
+            );
+
+            const submittedSubjectIds = new Set(studentFeedback.map(f => f.subjectId));
+            const completedCount = submittedSubjectIds.size;
+
+            let status = 'Pending';
+            if (totalSubjects > 0 && completedCount >= totalSubjects) {
+                status = 'Completed';
+            } else if (completedCount > 0) {
+                status = 'In Progress';
+            }
+
+            return {
+                rollnumber: student.rollnumber,
+                name: student.name,
+                completedCount,
+                totalSubjects,
+                status
+            };
+        });
+
+        studentStatusList.sort((a, b) => {
+            const statusOrder = { 'Pending': 1, 'In Progress': 2, 'Completed': 3 };
+            return statusOrder[a.status] - statusOrder[b.status];
+        });
+
+        res.json({
+            totalSubmissions: allFeedback.filter(f =>
+                f.class === year && f.section === section && f.semester === semester
+            ).length,
+            totalStudents: students.length,
+            stats: studentStatusList
+        });
+
+    } catch (error) {
+        console.error("Submission Analytics Error:", error);
+        res.status(500).json({ message: 'Failed to fetch submission analytics' });
+    }
+});
+
 app.get('/api/me', (req, res) => {
     const token = req.headers['authorization']?.split(' ')[1];
     if (!token) return res.status(401).json({ message: 'No token provided' });
@@ -533,6 +600,42 @@ app.use((err, req, res, next) => {
     res.status(500).json({
         message: 'Internal Server Error',
         error: process.env.NODE_ENV === 'development' ? err.message : 'See server logs'
+    });
+});
+
+// --- DEBUGGING ROUTES ---
+
+// Explicit debug route (duplicate of /api/debug to catch if /api is stripped)
+app.get('/debug', (req, res) => {
+    res.json({
+        message: 'Root Debug endpoint working',
+        originalUrl: req.originalUrl,
+        url: req.url,
+        path: req.path,
+        headers: req.headers,
+        env: process.env
+    });
+});
+
+// Diagnostic Catch-All (Place this at the VERY END of routes, before error handler)
+app.use((req, res) => {
+    console.log(`404 Hit: ${req.method} ${req.originalUrl}`);
+    res.status(404).json({
+        error: 'Not Found (Diagnostic)',
+        method: req.method,
+        originalUrl: req.originalUrl,
+        url: req.url,
+        path: req.path,
+        baseUrl: req.baseUrl,
+        query: req.query,
+        params: req.params,
+        // List registered layered routes for debugging
+        routes: app._router.stack
+            .filter(r => r.route)
+            .map(r => ({
+                path: r.route.path,
+                methods: Object.keys(r.route.methods)
+            }))
     });
 });
 
