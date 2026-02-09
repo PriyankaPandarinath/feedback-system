@@ -151,7 +151,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/debug', (req, res) => {
-    res.json({ message: 'Debug endpoint working', time: new Date().toISOString() });
+    res.json({
+        message: 'Debug endpoint working',
+        time: new Date().toISOString(),
+        usersLoaded: usersData.length,
+        cwd: process.cwd(),
+        isVercel: !!process.env.VERCEL
+    });
 });
 
 app.get('/api/health', (req, res) => {
@@ -521,7 +527,17 @@ app.get('/api/me', (req, res) => {
     });
 });
 
-if (process.env.NODE_ENV !== 'production') {
+// Global Error Handler
+app.use((err, req, res, next) => {
+    console.error("Critical Server Error:", err);
+    res.status(500).json({
+        message: 'Internal Server Error',
+        error: process.env.NODE_ENV === 'development' ? err.message : 'See server logs'
+    });
+});
+
+// Start Server (Only if NOT in Vercel)
+if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
     app.listen(PORT, () => {
         console.log(`Server running on http://localhost:${PORT}`);
     });
