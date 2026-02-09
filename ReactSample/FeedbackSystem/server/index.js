@@ -536,11 +536,10 @@ app.use((err, req, res, next) => {
     });
 });
 
-// Start Server (Only if NOT in Vercel)
-if (process.env.NODE_ENV !== 'production' && !process.env.VERCEL) {
+// Start Server (Only if started directly, not imported)
+if (require.main === module) {
     app.listen(PORT, () => {
         console.log(`Server running on http://localhost:${PORT}`);
     });
 }
-
 module.exports = app;
