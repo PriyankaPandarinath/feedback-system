@@ -150,6 +150,10 @@ app.get('/', (req, res) => {
     res.json({ status: 'API is running', endpoints: ['/api/login', '/api/me', '/api/feedback', '/api/analytics'] });
 });
 
+app.get('/api/debug', (req, res) => {
+    res.json({ message: 'Debug endpoint working', time: new Date().toISOString() });
+});
+
 app.get('/api/health', (req, res) => {
     res.json({
         status: 'ok',
